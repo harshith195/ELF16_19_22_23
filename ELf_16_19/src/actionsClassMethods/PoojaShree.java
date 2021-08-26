@@ -13,7 +13,7 @@ public class PoojaShree {
 		driver.get("https://demo.actitime.com/");
 		driver.close();
     
-    System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
+    		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		
