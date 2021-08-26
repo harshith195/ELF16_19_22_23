@@ -9,9 +9,9 @@ public class PoojaShree {
 		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
 	}
 	public static void main(String[] args) {
-		WebDriver driver=new ChromeDriver();
-		driver.get("https://demo.actitime.com/");
-		driver.close();
+		WebDriver driver1=new ChromeDriver();
+		driver1.get("https://demo.actitime.com/");
+		driver1.close();
     
     		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
